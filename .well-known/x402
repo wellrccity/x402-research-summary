@@ -1,0 +1,25 @@
+{
+  "version": "1",
+  "name": "Research Summary API",
+  "description": "Pay-per-call research summary endpoint. Returns a concise structured summary for a given topic or URL.",
+  "payment": {
+    "protocol": "x402",
+    "network": "base",
+    "asset": "USDC",
+    "price": "0.05",
+    "currency": "USDC",
+    "payTo": "0xC476c95782248bC97dEb42F18F877722861310a8"
+  },
+  "endpoints": [
+    {
+      "path": "/api/research-summary",
+      "method": "POST",
+      "price": "0.05",
+      "description": "Generate a structured research summary."
+    }
+  ],
+  "discovery": {
+    "wellKnown": "/.well-known/x402",
+    "manifest": "/x402-manifest"
+  }
+}

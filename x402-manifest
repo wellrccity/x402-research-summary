@@ -1,0 +1,18 @@
+{
+  "manifestVersion": "1",
+  "provider": "wellington-research",
+  "services": [
+    {
+      "id": "research-summary",
+      "title": "Research Summary",
+      "description": "Structured research summary with key findings, sources, and risks.",
+      "endpoint": "https://wellrccity.github.io/x402-research-summary/api/research-summary",
+      "method": "POST",
+      "priceUsdc": "0.05",
+      "network": "base",
+      "asset": "USDC",
+      "payTo": "0xC476c95782248bC97dEb42F18F877722861310a8"
+    }
+  ],
+  "contact": "https://github.com/wellrccity/x402-research-summary"
+}
